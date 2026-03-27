@@ -93,14 +93,14 @@ body{
     align-items: center;
     margin-right: 10px;
     border: 1px solid black;
-    padding:1px 5px;
+    padding:20px 5px;
     border-radius: 10px;
     /* background-color: orange; */
     height:30px;
     text-decoration: none;
 }
 .phone-box:hover{
-    transform: scale(1.01);
+    transform: scale(1.05);
 }
 .phone-icon{
     width:20px;
@@ -108,7 +108,7 @@ body{
     margin-right: 1px;
 }
 .phone-number{
-    font-size:10px;
+    font-size:15px;
     text-align:center;
     text-wrap:nowrap;
     color:black;
@@ -175,6 +175,7 @@ body{
 background: rgba(71, 70, 70, 0.65);
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
 
@@ -213,7 +214,7 @@ h2{
     cursor:pointer;
 }
 .hero_call{
-    width: 85px;
+    width: 134px;
 }
 .btn:hover{
     transform:translateY(-2px);
@@ -271,7 +272,9 @@ h2{
     box-shadow:0 5px 15px rgba(0,0,0,0.08);
     text-align: center;
     color:black;
+    width: 100%;
     max-width: 300px;
+    margin: 0 auto;
     border:1px solid orange;
 }
 .service p{
@@ -579,5 +582,9 @@ animation:pop 0.4s ease;
     gap:15px;
     font-size:14px;
 }
+
+.service{
+        max-width: 100%;
+    }
 
 }
