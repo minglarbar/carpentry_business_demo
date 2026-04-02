@@ -557,15 +557,21 @@ animation:pop 0.4s ease;
     position:absolute;
     top:70px;
     right:20px;
-    background:white;
+    /* background:white; */
+    background-image: url("images/wooden-wall.jpg");
     padding:20px;
     border-radius:8px;
     box-shadow:0 5px 15px rgba(0,0,0,0.2);
     z-index:999;
+    gap:0px;
 }
 
 #mainNav a{
     margin:10px 0;
+    color:black;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
 }
 
 .menu-toggle{
